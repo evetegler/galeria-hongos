@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Galería de Imágenes jQuery</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Galería de Hongos</h1>
+    <div class="gallery">
+        <img src="img/Amanita_Muscaria.png" id="img1" class="thumb" alt="Amanita Muscaria" />
+        <img src="img/Boletus_Edulis.jpg" id="img2" class="thumb" alt="Boletus Edulis" />
+        <img src="img/Cordyceps.jpg" id="img3" class="thumb" alt="Cordyceps" />
+        <img src="img/Cucumelo.jpg" id="img4" class="thumb" alt="Cucumelo" />
+        <img src="img/Lepista_sordida.jpg" id="img5" class="thumb" alt="Lepista Sordida" />
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <button class="prev">Anterior</button>
+            <img id="modal-img" src="" alt="Imagen grande" />
+            <button class="next">Siguiente</button>
+        </div>
+    </div>
+</body>
+</html>
+
